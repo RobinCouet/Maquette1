@@ -1,0 +1,291 @@
+body {
+	margin: 0 auto;
+	width: 955px;
+	font-family: helvetica;
+}
+h3 {
+	color: #660033;
+	margin-top: 10px;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.black {
+	color: black;
+}
+#header {
+	background-color: black;
+	height: 93px;
+	width: 955px;
+	color: white;
+}
+#top {
+	margin-left: 10px;
+	padding-top: 10px;
+}
+#bottom {
+	margin-left: 86.5%;
+	padding-top: 3%;
+}
+.menu {
+	color: white;
+	text-decoration: none;
+	font-size: 75%;
+}
+#map {
+	width: 270px;
+	height: 225px;
+}
+#navibar {
+	background-color: #660033;
+	width: 955px;
+	height: 473px;
+	margin-bottom: 15px;
+}
+#title {
+	background-color: #660033;
+	height: 68px;
+	width: 280px;
+	color: white;
+	text-align: center;
+	line-height: 250%;
+	font-size: 150%;
+	float: left;
+
+}
+#image {
+	background-image: url(assets/chambre.jpg);
+	width: 640px;
+	height:380px;
+	float: right;
+	margin-right: 35px;
+}
+#space {
+	padding-top: 67px;
+}
+.button {
+	height: 44px;
+	width: 280px;
+	list-style-type:none;
+	line-height: 250%;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.pastille {
+	float: left;
+	margin-top: 4px;
+	padding-right: 5px;
+}
+.link {
+	display: block;
+	width:100%;
+	height:100%;
+}
+#description {
+	float: left;
+	width: 280px;
+	font-size: 75%;
+	height: auto;
+}
+#contenue {
+	margin-left: 280px;
+	background-color: #cccccc;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	position: relative;
+	margin-right: 36px;
+	height: 230px;
+}
+#door {
+	background-image: url(assets/bienvenue.jpg);
+	width: 90%;
+	height: 90%;
+	background-repeat:no-repeat;
+	float:left;
+}
+.text {
+	float: right;
+	width: 250px;
+	position: absolute;
+	padding-left: 348px;
+	font-size: 72%;
+}
+.trait {
+	margin-top: 0px;
+}
+.purple {
+	color: #660033;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.border {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.triangle {
+	float: left;
+}
+.purple1 {
+	color: #660033;
+}
+#margin {
+	margin-bottom: 5px;
+}
+a.link {
+	text-decoration: none;
+	color: black;
+}
+a.link:hover {
+	color: white;
+	background-color: black;
+	line-height: 250%;
+}
+div.button a.link:hover img {
+	color: white;
+	background-color: black;
+	visibility: visible;
+	line-height: 250%;
+}
+div.button a.link img {
+	color: white;
+	background-color: black;
+	visibility: hidden;
+	margin-left: 10px;
+	padding-top: 7px;
+}
+.more {
+	background-color: #660033;
+	color: white;
+	font-size: 12px;
+	padding: 3px 5px 2px 5px;
+	font-weight: bold;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 63%;
+	text-align: right;
+}
+.acces {
+	background-color: #660033;
+	color: white;
+	font-size: 12px;
+	padding: 3px 5px 2px 5px;
+	font-weight: bold;
+	text-align: right;
+	margin-left: 160px;
+	margin-right: 10px;
+    margin-top: 5px;
+}
+.offer {
+	background-color: #660033;
+	color: white;
+	font-size: 12px;
+	padding: 5px 5px 5px 5px;
+	font-weight: bold;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	text-align: right;
+	margin-right: 10px;
+	margin-left: 220px;
+}
+
+.know {
+	display: block;;
+	text-decoration: none;
+	color: white;
+	margin-top: 2px;
+	margin-bottom: 3px;
+}
+.line {
+	border: 1px;
+}
+#first {
+	height: 330px;
+	width: 315px;
+	margin-left: 280px;
+	background-color: #cccccc;
+	margin-right: 10px;
+}
+#scnd {
+	height: 330px;
+	width: 315px;
+	background-color: #660033;
+	margin-right: 10px;
+	position: absolute;
+	margin-left: 325px;
+	top: 748px;
+}
+span {
+	color: white;
+}
+.pos {
+	padding-top: 4px;
+	padding-left: 10px;
+}
+.textbed {
+	font-size: 75%;
+}
+.bed {
+	font-size: 12px;
+}
+.offre {
+	float: left;
+	margin-right: 10px;
+}
+.bold {
+	font-weight: bold;
+	color: black;
+}
+.greyline {
+	border-top: 1px solid gray;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+tr:hover td{
+	color: #980065;
+	font-size: 71%;
+	width: 315px;
+}
+tr.borderbottom {
+	border-bottom: 1px solid #980065;
+}
+table {
+	margin-left: 10px;
+	font-size: 16px;
+	border-collapse:collapse;
+    margin-right: 10px;
+}
+.tab {
+	color: white;
+	font-size: 71%;
+	width: 315px;
+	padding-top: 6px;
+	padding-bottom: 7px;
+}
+.tabfirst {
+	border-top: 1px solid #980065;
+	color: white;
+	font-size: 71%;
+	width: 315px;
+	padding-top: 6px;
+	padding-bottom: 7px;
+}
+.footlink {
+	text-decoration: none;
+	color: #333333;
+}
+.footlink:hover {
+	font-weight: bold;
+}
+#footer {
+	background-color: black;
+	height: 45px;
+	width: 955px;
+	margin-top: 10px;
+	color: #333333;
+	text-align: center;
+	line-height: 400%;
+	font-size: 73%;
+}
